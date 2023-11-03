@@ -16,6 +16,9 @@ class Category(models.Model):
         verbose_name='Category' #name in admin panel
         verbose_name_plural= 'Categories' 
 
+    def __str__(self):
+            return self.title
+
 
 
 
